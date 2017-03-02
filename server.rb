@@ -4,7 +4,7 @@ require 'sinatra'
     get '/' do
 load 'craiglist.rb'
 # File.read('public/hello.txt')
-#   end
+  end
 
 
     # current_time = Time.now.wday
