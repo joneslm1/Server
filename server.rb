@@ -3,8 +3,7 @@ require 'craigslist'
 
     get '/' do
 
-load('craigslist')
-
+load('craigslist.rb')
   end
 
 
