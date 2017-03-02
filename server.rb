@@ -1,8 +1,8 @@
 require 'sinatra'
 load 'craigslist.rb'
 
-    get '/' do
-      load 'craigslist.rb'
+    get '/' do 'craigslist.rb'
+
 
 
   end
