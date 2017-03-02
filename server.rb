@@ -1,5 +1,5 @@
 require 'sinatra'
-require "httparty"
+require "HTTParty"
 require 'nokogiri'
 
     get '/' do
