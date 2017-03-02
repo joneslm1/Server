@@ -1,9 +1,9 @@
 require 'sinatra'
-
+require 'config.ru'
 
     get '/' do
 
-
+load 'craigslist.rb'
 
 
 # File.read('public/hello.txt')
