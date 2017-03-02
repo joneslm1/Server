@@ -1,6 +1,10 @@
 require 'sinatra'
+require 'craigslist'
 
-    get '/' do load ('craigslist.rb')
+    get '/' do
+
+load('craigslist')
+
   end
 
 
