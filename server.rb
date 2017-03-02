@@ -1,7 +1,10 @@
 require 'sinatra'
 
-  get '/' do
-  File.read('public/hello.txt')
+
+    get '/load' do
+        x = load( 'craigslist.rb' )
+        "load sez #{x}"
+# File.read('public/hello.txt')
   end
 
 
