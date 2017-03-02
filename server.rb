@@ -1,5 +1,5 @@
 require 'sinatra'
-# load 'craigslist.rb'
+load 'craigslist.rb'
 
     get '/' do
       load 'craigslist.rb'
