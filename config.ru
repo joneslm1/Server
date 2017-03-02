@@ -1,2 +1,2 @@
-require "craigslist.rb"
+require "server.rb"
 run Sinatra::Application
