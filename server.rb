@@ -2,7 +2,10 @@ require 'sinatra'
 
 
     get '/' do
-load 'craiglist.rb'
+
+
+
+
 # File.read('public/hello.txt')
   end
 

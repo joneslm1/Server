@@ -1,2 +1,2 @@
-require "/public/craigslist.rb"
+require "craigslist.rb"
 run Sinatra::Application
